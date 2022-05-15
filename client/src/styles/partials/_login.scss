@@ -1,0 +1,31 @@
+@import "../mixins";
+
+.loggin_wrapper{
+    @include underline(#9C0F48);
+}
+
+.login_container{
+    min-height: 80vh;
+    box-shadow: 0 1px 10px 1px #0000003b;
+    background-color: #f7f7f7;
+
+    .section1{
+        .ip_feild{
+            margin: 1rem auto;
+            width: 70%;
+        }
+        .login_btn{
+            background-color: #7D1935;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+
+    .section2{
+        background: url("../../../client/src/styles/images/loginbg.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+    }
+}

@@ -1,0 +1,17 @@
+*,*::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+
+@import "./partials/navbar";
+@import "./partials/homepage";
+@import "./partials/login";
+@import "./partials/register";
+@import "./partials/doctors";
+@import "./partials/BookAppointmentForm";

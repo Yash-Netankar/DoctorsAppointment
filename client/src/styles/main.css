@@ -1,0 +1,243 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+nav {
+  background-color: #f7f6f2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  -webkit-box-shadow: 0 1px 15px 0px #0000000e;
+          box-shadow: 0 1px 15px 0px #0000000e;
+  z-index: 10;
+}
+
+nav .logo i {
+  font-size: 1.5rem;
+}
+
+nav .links_div ul .nav_link {
+  margin: auto 7px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.home_bg {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #000000c4), to(#00000000)), url("../../../client/src/styles/images/landingbg.jpg");
+  background-image: linear-gradient(to right, #000000c4 40%, #00000000), url("../../../client/src/styles/images/landingbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home_bg .section1 {
+  padding: 0 1rem;
+}
+
+.home_bg .section1 p {
+  text-align: justify;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 0 0 1px black;
+}
+
+.home_bg .section1 .bookAppointment_btn {
+  border-radius: 30px;
+  background-color: #6bcb77;
+  word-spacing: 2px;
+}
+
+.home_bg .section2 .img_div {
+  width: 500px;
+  height: 500px;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.home_bg .section2 .img_div .bg {
+  width: 100%;
+  -webkit-filter: drop-shadow(0 0 1rem #064635);
+          filter: drop-shadow(0 0 1rem #064635);
+}
+
+.loggin_wrapper .underline {
+  position: relative;
+}
+
+.loggin_wrapper .underline::after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  background-color: #9C0F48;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.login_container {
+  min-height: 80vh;
+  -webkit-box-shadow: 0 1px 10px 1px #0000003b;
+          box-shadow: 0 1px 10px 1px #0000003b;
+  background-color: #f7f7f7;
+}
+
+.login_container .section1 .ip_feild {
+  margin: 1rem auto;
+  width: 70%;
+}
+
+.login_container .section1 .login_btn {
+  background-color: #7D1935;
+}
+
+.login_container .section1 p {
+  font-size: 1rem;
+}
+
+.login_container .section2 {
+  background: url("../../../client/src/styles/images/loginbg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+}
+
+.register_wrapper .underline {
+  position: relative;
+}
+
+.register_wrapper .underline::after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  background-color: #fc9918;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.register_container {
+  min-height: 80vh;
+  -webkit-box-shadow: 0 1px 10px 1px #0000003b;
+          box-shadow: 0 1px 10px 1px #0000003b;
+  background-color: #f7f7f7;
+}
+
+.register_container .section1 .ip_feild {
+  margin: 1rem auto;
+  width: 70%;
+}
+
+.register_container .section1 .register_btn {
+  background-color: #fc9918;
+}
+
+.register_container .section1 p {
+  font-size: 1rem;
+}
+
+.register_container .section2 {
+  background: url("../../../client/src/styles/images/registerbg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+}
+
+.allDoctors_wrapper {
+  background-color: #eaeaea;
+}
+
+.allDoctors_wrapper .doctor_card {
+  margin: 5rem auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 10px 1px #6bcb787e;
+          box-shadow: 0 2px 10px 1px #6bcb787e;
+}
+
+.allDoctors_wrapper .doctor_card .section1 {
+  background-color: #6bcb77;
+  background: -webkit-gradient(linear, right bottom, left top, from(#eaeaea), color-stop(50%, #6bcb77));
+  background: linear-gradient(to top left, #eaeaea, #6bcb77 50%);
+}
+
+.allDoctors_wrapper .doctor_card .section1 img {
+  width: 200px;
+  height: 200px;
+  -webkit-filter: drop-shadow(0 1px 3px gray);
+          filter: drop-shadow(0 1px 3px gray);
+}
+
+.allDoctors_wrapper .doctor_card .section1 .name, .allDoctors_wrapper .doctor_card .section1 .degree, .allDoctors_wrapper .doctor_card .section1 .speciality, .allDoctors_wrapper .doctor_card .section1 .ratings {
+  font-size: 1rem;
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+}
+
+.allDoctors_wrapper .doctor_card .section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 .5rem;
+}
+
+.allDoctors_wrapper .doctor_card .section2 .desc, .allDoctors_wrapper .doctor_card .section2 .location {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.allDoctors_wrapper .doctor_card .section2 .bookAppointmentBtn {
+  width: 50%;
+  border-radius: 30px;
+  word-spacing: 3px;
+  text-shadow: 0px 1px 1px #00000065;
+  background-color: #6bcb77;
+}
+
+.allDoctors_wrapper .doctor_card:nth-child(even) {
+  -webkit-box-shadow: 0 2px 10px 1px #fc991870;
+          box-shadow: 0 2px 10px 1px #fc991870;
+}
+
+.allDoctors_wrapper .doctor_card:nth-child(even) .section1 {
+  background: -webkit-gradient(linear, right bottom, left top, from(#eaeaea), color-stop(50%, #fc9918));
+  background: linear-gradient(to top left, #eaeaea, #fc9918 50%);
+}
+
+.allDoctors_wrapper .doctor_card:nth-child(even) .section2 .bookAppointmentBtn {
+  background-color: #fc9918;
+  text-shadow: 0px 1px 1px #000000a6;
+}
+
+.BookAppointmentForm_wrapper .bookAppointmentForm {
+  border: 1px solid #333;
+  padding: 1rem 2rem;
+}
+
+.BookAppointmentForm_wrapper .bookAppointmentForm .ip_field,
+.BookAppointmentForm_wrapper .bookAppointmentForm .form-select,
+.BookAppointmentForm_wrapper .bookAppointmentForm .bookBtn {
+  margin: 1rem 0;
+}
+/*# sourceMappingURL=main.css.map */

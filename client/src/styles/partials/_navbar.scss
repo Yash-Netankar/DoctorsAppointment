@@ -1,0 +1,22 @@
+nav{
+    background-color: #f7f6f2;
+    position: sticky;
+    top:0;
+    left: 0;
+    box-shadow: 0 1px 15px 0px #0000000e;
+    z-index: 10;
+    .logo{
+        i{
+            font-size: 1.5rem;
+        }
+    }
+    .links_div{
+        ul .nav_link{
+            margin: auto 7px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            color: #222;
+            font-weight: 500;
+        }
+    }
+}

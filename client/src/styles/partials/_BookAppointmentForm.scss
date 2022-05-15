@@ -1,0 +1,11 @@
+.BookAppointmentForm_wrapper{
+    .bookAppointmentForm{
+        border: 1px solid #333;
+        padding: 1rem 2rem;
+        .ip_field,
+        .form-select,
+        .bookBtn{
+            margin:1rem 0;
+        }
+    }
+}

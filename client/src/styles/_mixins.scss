@@ -1,0 +1,16 @@
+@mixin underline($color) {
+    .underline{
+    position: relative;
+        &::after{
+            content: "";
+            width: 50%;
+            height: 2px;
+            background-color: $color;
+            border-radius: 10px;
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

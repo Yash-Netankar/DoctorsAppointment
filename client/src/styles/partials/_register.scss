@@ -1,0 +1,31 @@
+@import "../mixins";
+
+.register_wrapper{
+    @include underline(#fc9918);
+}
+
+.register_container{
+    min-height: 80vh;
+    box-shadow: 0 1px 10px 1px #0000003b;
+    background-color: #f7f7f7;
+
+    .section1{
+        .ip_feild{
+            margin: 1rem auto;
+            width: 70%;
+        }
+        .register_btn{
+            background-color: #fc9918;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+
+    .section2{
+        background: url("../../../client/src/styles/images/registerbg.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+    }
+}
